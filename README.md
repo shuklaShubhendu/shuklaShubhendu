@@ -9,10 +9,6 @@ Welcome to my GitHub profile! I'm a passionate software engineer with a keen int
 - **Tools & Platforms:** Android Studio, Jupyter Notebook, Google Colab, Azure, Google Cloud Platform, Visual Studio Code, IntelliJ, Git, Eclipse, Atom, GitHub, Linux, Docker, Kubernetes, AWS Bedrock, NVIDIA NIM
 - **Databases:** MongoDB, MySQL, PostgreSQL, Mongoose, Firebase, Supabase, SQLite
 
-## 📈 GitHub Stats
-
-![Shubhendu's GitHub stats](https://github-readme-stats.vercel.app/api?username=shuklaShubhendu&show_icons=true&theme=radical)
-
 ## 🌱 What I'm Currently Learning
 
 - **Generative AI:** Exploring advanced techniques in generative modeling, including GANs and VAEs, to create innovative AI applications.
