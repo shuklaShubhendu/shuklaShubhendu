@@ -27,7 +27,7 @@ Welcome to my GitHub profile! I'm a passionate software engineer with a keen int
 ## 📫 How to Reach Me
 
 - **Email:** shuklashubhendu6@gmail.com
-- **LinkedIn:** [linkedin.com/in/shubhendu](https://www.linkedin.com/in/shubhendu-shukla-218b382a3/)
+- **LinkedIn:** [linkedin.com/in/shubhendu-shukla-218b382a3/](https://www.linkedin.com/in/shubhendu-shukla-218b382a3/)
 - **GitHub:** [github.com/shuklaShubhendu](https://github.com/shuklaShubhendu)
 
 ## 🌟 Projects
