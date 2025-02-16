@@ -15,11 +15,6 @@ Welcome to my GitHub profile! I'm a passionate software engineer with a keen int
 - **DevOps:** Enhancing my skills in CI/CD, infrastructure as code (IaC), and container orchestration with Kubernetes and Docker.
 - **Deep Learning:** Diving deeper into neural networks, computer vision, and natural language processing to build cutting-edge AI solutions.
 
-## 💼 Professional Experience
-
-- **AI and Software Development Intern at GreenFi AI (January 2025 – Present):** Developed AI-powered solutions including a claim evaluator for personal injury cases, AI OCR, text-to-speech, and speech-to-text systems to enhance document processing and accessibility. Implemented intelligent chat session management and built an AI-driven document generator for personal injury claims.
-- **Artificial Intelligence Intern at StudentAI (March 2024 – November 2024):** Developed and deployed an advanced IELTS Speaking Test application, established an AI-powered Discord server for the StudentAI community, and authored 60+ SEO-friendly blogs and web pages for StudentAI.
-
 ## 📫 How to Reach Me
 
 - **Email:** shuklashubhendu6@gmail.com
