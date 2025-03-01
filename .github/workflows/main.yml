@@ -14,8 +14,8 @@ jobs:
 
       - name: Update README with latest stats
         run: |
-          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=highcontrast" -o streak-stats.png
-          curl -s "https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical" -o github-stats.png
+          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=shuklaShubhendu&theme=highcontrast" -o streak-stats.png
+          curl -s "https://github-readme-stats.vercel.app/api?username=shuklaShubhendu&show_icons=true&theme=radical" -o github-stats.png
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add streak-stats.png github-stats.png
