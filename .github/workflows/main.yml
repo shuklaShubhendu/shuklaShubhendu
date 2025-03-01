@@ -1,15 +1,23 @@
-name: Update GitHub Streak
+name: Update GitHub Profile Stats
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
-  update-streak:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Update GitHub Streak
-        uses: anuraghazra/github-readme-streak-stats@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update README with latest stats
+        run: |
+          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=highcontrast" -o streak-stats.png
+          curl -s "https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical" -o github-stats.png
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add streak-stats.png github-stats.png
+          git commit -m "Update GitHub stats images"
+          git push
