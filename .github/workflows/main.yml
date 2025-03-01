@@ -1,0 +1,15 @@
+name: Update GitHub Streak
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update GitHub Streak
+        uses: anuraghazra/github-readme-streak-stats@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
